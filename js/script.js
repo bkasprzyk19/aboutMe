@@ -24,11 +24,11 @@ alert('Confused?');
 
 let person= prompt('what hand do you write with?');
 if(person.toLowerCase() =='right'){
-  alert('You have unlocked the ultimate beach package discount. We will be contacting you by telephone in the next 24 hours.');
+  alert('After the prompts complete, please close your browser and return to the right-handed version of this site for full compatibility');
   
 }
 else if(person.toLowerCase() =='left'){
-alert('After the prompts complete, please close your browser and do not return. We do not welcome left handed writers.');}
+alert('After the prompts complete, please close your browser and return to the left-handed version of this site for full compatibility');}
 
 else{
   alert('Confused Again?');

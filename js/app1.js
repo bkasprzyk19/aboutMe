@@ -1,4 +1,4 @@
-console.log('hello world!');
+console.log('hello world 2!');
 
 let hotSpringOriginal = prompt('would you like to go to the hotsprings?');
 console.log(hotSpring);

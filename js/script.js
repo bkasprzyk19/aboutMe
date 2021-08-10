@@ -27,5 +27,65 @@ if(person.toLowerCase() =='right'){
   alert('You have unlocked the ultimate beach package discount. We will be contacting you by telephone in the next 24 hours.');
   
 }
-if(person.toLowerCase() =='left'){
-alert('Please close your browser and do not return.');}
+else if(person.toLowerCase() =='left'){
+alert('After the prompts complete, please close your browser and do not return.');}
+
+else{
+  alert('Confused Again?');
+  };
+
+console.log('hello world 2!');
+
+let hotSpringOriginal = prompt('would you like to go to the hotsprings?');
+console.log(hotSpringOriginal);
+let hotSpring = hotSpringOriginal.toLowerCase();
+
+if( hotSpring == 'yes' || hotSpring == 'y') {
+  alert('We will show you the way.'); 
+} 
+
+else if (hotSpring == 'no' || hotSpring == 'n') {
+  alert ('you must find your own way.');
+} else {
+    alert('Confused a third time? Moving on');
+}
+
+
+
+
+let review = prompt('On a scale of 1-7, please submit a number which you rate our site as: 1 being terrible, 7 being the best you ever saw');
+
+console.log(typeof review);
+
+let reviewNumber = parseInt(review);
+
+switch (reviewNumber) {
+  case 1: 
+    alert('join our team to help us!');
+    break;
+    case 2: 
+    alert('join our team to help us!');
+    break;
+    case 3: 
+    alert('join our team to help us!');
+    break;
+    case 4: 
+    alert('join our team to help us!');
+    break;
+    case 5: 
+    alert('join our team to help us!');
+    break;
+    case 6:
+      alert('Please spread the word!');
+      break;
+    case 7: 
+      alert('woot woot!!!');
+      break;
+  default:
+      alert('Enjoy your time!')
+      
+}
+
+// (userBeach.toLowerCase() !=='right' && userBeach.toLowerCase() !=='left')
+
+// prompts always return strings!!!

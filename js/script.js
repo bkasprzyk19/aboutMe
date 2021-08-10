@@ -10,11 +10,11 @@ let alertReturn = alert('Welcome to the page ' + userName);
 let userBeach= prompt('Did you bring your beach umbrella?');
 
 if(userBeach.toLowerCase() =='yes'){
-  alert('Awesome Job ' + userName + '!');
+  alert('Awesome Job, so did I. I love Beaches, lets go.' + userName + '!');
   
 }
 if(userBeach.toLowerCase() =='no'){
-alert('Why not?');
+alert('Why not? I was going to take you to the beach.');
 
 }
 
@@ -28,7 +28,7 @@ if(person.toLowerCase() =='right'){
   
 }
 else if(person.toLowerCase() =='left'){
-alert('After the prompts complete, please close your browser and do not return.');}
+alert('After the prompts complete, please close your browser and do not return. We do not welcome left handed writers.');}
 
 else{
   alert('Confused Again?');
@@ -41,7 +41,7 @@ console.log(hotSpringOriginal);
 let hotSpring = hotSpringOriginal.toLowerCase();
 
 if( hotSpring == 'yes' || hotSpring == 'y') {
-  alert('We will show you the way.'); 
+  alert('We will show you the way. We have a long history of hotsprings exploration'); 
 } 
 
 else if (hotSpring == 'no' || hotSpring == 'n') {

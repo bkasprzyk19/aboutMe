@@ -45,7 +45,7 @@ if( hotSpring == 'yes' || hotSpring == 'y') {
 } 
 
 else if (hotSpring == 'no' || hotSpring == 'n') {
-  alert ('you must find your own way.');
+  alert ('you must find your own way. you missed out');
 } else {
     alert('Confused a third time? Moving on');
 }
@@ -61,28 +61,28 @@ let reviewNumber = parseInt(review);
 
 switch (reviewNumber) {
   case 1: 
-    alert('join our team to help us!');
+    alert(userName + ', please join our team to help us!');
     break;
     case 2: 
-    alert('join our team to help us!');
+    alert(userName + ', please join our team to help us!');
     break;
     case 3: 
-    alert('join our team to help us!');
+    alert(userName + ', please join our team to help us!');
     break;
     case 4: 
-    alert('join our team to help us!');
+    alert(userName + ', please join our team to help us!');
     break;
     case 5: 
-    alert('join our team to help us!');
+    alert(userName + ', please join our team to help us!');
     break;
     case 6:
-      alert('Please spread the word!');
+      alert(userName + ', please spread the word!');
       break;
     case 7: 
-      alert('woot woot!!!');
+      alert('woot woot!!! good job '+ userName);
       break;
   default:
-      alert('Enjoy your time!')
+      alert('Enjoy your time ' + userName)
       
 }
 

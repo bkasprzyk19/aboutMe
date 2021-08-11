@@ -10,6 +10,24 @@ body{
 
 }   
 
+div{
+
+  width: 400px;
+  border: 15px solid #bf6600;
+  padding: 80px 20px;
+  margin: 30px auto;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  
+  position: sticky;
+  color: #bf2600;
+
+
+}
+
+
 
 
 
@@ -23,6 +41,7 @@ footer{
 
 }
 li{
+
   display: inline;}
 
 

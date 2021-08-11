@@ -1,17 +1,22 @@
 # aboutMe
 
-lab01
 
-Beach Finder Maximum Power
 
-LAB - Number
-Project Name
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+LAB -02
+Project: aboutMe
+ I'm building a basic site.
 
-Author: Student/Group Name
-Links and Resources
-submission PR
-Any Links you used as reference
-Reflections and Comments
-Consider including the answers to your daily journal and submission questions here
-This is also a good place to reflect on the tools and resources used and learned
+
+Author: Brian K
+
+
+
+Images and knowledge sourced from:
+
+https://codingislove.com/css-speech-bubbles/
+
+https://www.maxpixel.net/static/photo/1x/Snowman-Hat-Winter-Cold-Christmas-Snow-Scarf-5541439.
+
+https://www.jpl.nasa.gov/
+
+"https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2121a.jpg

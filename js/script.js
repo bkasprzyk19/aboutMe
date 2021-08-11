@@ -86,6 +86,8 @@ switch (reviewNumber) {
       
 }
 
+Document.getElementsByClassName('circular-1')
+
 // (userBeach.toLowerCase() !=='right' && userBeach.toLowerCase() !=='left')
 
 // prompts always return strings!!!

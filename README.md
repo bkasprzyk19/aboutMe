@@ -8,6 +8,7 @@ Project: aboutMe
 
 
 Author: Brian K
+- Coauthored by George Mead
 
 
 

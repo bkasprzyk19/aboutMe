@@ -7,6 +7,7 @@ let userName= prompt('What is your name?');
 console.log('The userName is ' + userName); 
 let alertReturn = alert('Welcome to the page ' + userName);
 
+function userBeachf() {
 let userBeach= prompt('Did you bring your beach umbrella?');
 
 if(userBeach.toLowerCase() =='yes'){
@@ -21,7 +22,10 @@ alert('Why not? I was going to take you to the beach.');
 if(userBeach.toLowerCase() !=='yes' && userBeach.toLowerCase() !=='no'){
 alert('Confused?');
 };
+}
+userBeachf();
 
+function personF() {
 let person= prompt('what hand do you write with?');
 if(person.toLowerCase() =='right'){
   alert('After the prompts complete, please close your browser and return to the right-handed version of this site for full compatibility');
@@ -33,9 +37,12 @@ alert('After the prompts complete, please close your browser and return to the l
 else{
   alert('Confused Again?');
   };
+}
+personF();
 
 console.log('hello world 2!');
 
+function hotSpringF() {
 let hotSpringOriginal = prompt('would you like to go to the hotsprings?');
 console.log(hotSpringOriginal);
 let hotSpring = hotSpringOriginal.toLowerCase();
@@ -49,10 +56,11 @@ else if (hotSpring == 'no' || hotSpring == 'n') {
 } else {
     alert('Confused a third time? Moving on');
 }
+}
+hotSpringF();
 
 
-
-
+function reviewF() {
 let review = prompt('On a scale of 1-7, please submit a number which you rate our site as: 1 being terrible, 7 being the best you ever saw');
 
 console.log(typeof review);
@@ -86,8 +94,8 @@ switch (reviewNumber) {
 
       
 }
-
-
+}
+reviewF();
 
 
 

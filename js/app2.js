@@ -111,29 +111,29 @@ let correctAnswer = false;
 
 
 
-while (attempts < 5 && correctAnswer === false) {
-  let drink = prompt('There are six types of drinks that I can usually be found with. If you have paid attention, submit one of my top six usual drinks to continue. You have 6 guesses total, and you are on your '  + attempts + ' guess.');
-  for(let index = 0; index < drinkArray.length; index ++) {
-    let currentDrink = drinkArray[index];
-    console.log('is ' + drink + '=== ' + currentDrink);
+// while (attempts < 5 && correctAnswer === false) {
+//   let drink = prompt('There are six types of drinks that I can usually be found with. If you have paid attention, submit one of my top six usual drinks to continue. You have 6 guesses total, and you are on your '  + attempts + ' guess.');
+//   let index = 0; index < drinkArray.length; index ++ {
+//   let currentDrink = drinkArray[index];
+//   console.log('is ' + drink + '=== ' + currentDrink);
     
 
-    if (drink === currentDrink) {
-      alert('nice, you got it!');
-      correctAnswer = true;
+//     if (drink === currentDrink) {
+//       alert('nice, you got it!');
+//       correctAnswer = true;
       
-    }}
+//     }}
     
     
-    attempts ++;
+//     attempts ++;
 
-if(correctAnswer === false) {
-  alert('wrong...  try again');
+// if(correctAnswer === false) {
+//   alert('wrong...  try again');
 
  
-}
-  else (alert(drinkArray))
-  }
+// }
+//   else (alert(drinkArray))
+//   }
 
 
 

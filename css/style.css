@@ -6,10 +6,10 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-
-}   
-
+  
+ 
+}
+  
 div{
 
   width: 400px;
@@ -40,9 +40,9 @@ footer{
   text-decoration-color:black;   
 
 }
-li{
+/* li{ type: "i";
 
-  display: inline;}
+  display: inline;} */
 
 
   /* header {

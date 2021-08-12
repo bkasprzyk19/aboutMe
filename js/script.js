@@ -83,10 +83,17 @@ switch (reviewNumber) {
       break;
   default:
       alert('Enjoy your time ' + userName)
+
       
 }
 
-Document.getElementsByClassName('circular-1')
+
+
+
+
+
+
+// Document.getElementsByClassName('circular-1')
 
 // (userBeach.toLowerCase() !=='right' && userBeach.toLowerCase() !=='left')
 

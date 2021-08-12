@@ -20,3 +20,5 @@ https://www.maxpixel.net/static/photo/1x/Snowman-Hat-Winter-Cold-Christmas-Snow-
 https://www.jpl.nasa.gov/
 
 "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2121a.jpg
+
+https://www.w3schools.com/js/js_random.asp
